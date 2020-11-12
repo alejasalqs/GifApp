@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo GiftGrid.js Debe de mostrar items cuando se cargan imagenes  1`] = `
+<Fragment>
+  <h3>
+    Searching: 
+    Pokemon
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GiftGridItem
+      id="ABC"
+      key="ABC"
+      title="TEST"
+      url="https://test.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el archivo GiftGrid.js El componenete debe renderizarse correctamente  1`] = `
+<Fragment>
+  <h1>
+    Loading...
+  </h1>
+  <h3>
+    Searching: 
+    Pokemon
+  </h3>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

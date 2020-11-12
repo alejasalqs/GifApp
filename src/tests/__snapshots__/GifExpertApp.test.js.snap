@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo GifExpertApp.js Debe renderizarse correctamente  1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <br />
+  <ol>
+    <GiftGrid
+      category="Pokemon"
+      key="Pokemon"
+    />
+  </ol>
+</Fragment>
+`;
